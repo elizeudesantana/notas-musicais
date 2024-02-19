@@ -2,12 +2,25 @@
 name = "notas-musicais"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["elizeu <elizeudesantana@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+pytest-cov = "^4.1.0"
+blue = "^0.9.1"
+isort = "^5.13.2"
+taskipy = "^1.12.2"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.5.10"
+mkdocstrings = "^0.24.0"
+mkdocstrings-python = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
